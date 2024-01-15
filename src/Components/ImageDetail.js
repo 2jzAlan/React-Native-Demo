@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, Image } from 'react-native';
 const ImageDetail = props => {
     return (
         <View>
-            <Image source={require('../../assets/desktop.jpg')}/>
+            <Image source={require('../../assets/ ')}/>
             <Text>{props.title}</Text>
         </View>
     )
