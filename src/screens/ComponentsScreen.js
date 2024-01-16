@@ -10,7 +10,7 @@ const ComponentsScreen = () => { //arrow functions prefered
     <View>
         <Text style={styles.h1Text}>This is the h1Text</Text>
         <Text style={styles.bodyText}>This is a standard JSX flow</Text> 
-        <Text>View enables multiple elements</Text>
+        <Text>View wraps multiple elements</Text>
         <Text style={{ fontSize: 20 }}>{condition1}</Text> 
         {condition2}
     </View>

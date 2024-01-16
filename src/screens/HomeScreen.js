@@ -10,9 +10,17 @@ const HomeScreen = ({ navigation}) => {
         onPress={() => navigation.navigate('Components')} //button actions onPress
         title="Go to Components Demo" //name of the button
       />
-      <Button //component for simple button detecting press
-        onPress={() => navigation.navigate('Image')} //button actions onPress
-        title="Go to Image Demo" //name of the button
+      <Button
+        onPress={() => navigation.navigate('Image')}
+        title="Go to Image Demo"
+      />
+      <Button
+        onPress={() => navigation.navigate('Counter')}
+        title="Go to Counter Demo"
+      />
+      <Button
+        onPress={() => navigation.navigate('Color')}
+        title="Go to Color Demo"
       />
       <TouchableOpacity onPress={() => navigation.navigate('List')}>
         <Text>Go to List Demo</Text>

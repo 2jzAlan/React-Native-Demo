@@ -4,6 +4,8 @@ import HomeScreen from "./src/screens/HomeScreen";
 import ComponentsScreen from './src/screens/ComponentsScreen'; //* import *ComponentName* from './src/screens/ComponentName';
 import ListScreen from "./src/screens/ListScreen";
 import ImageScreen from "./src/screens/ImageScreen";
+import CounterScreen from "./src/screens/CounterScreen";
+import ColorScreen from "./src/screens/ColorScreen";
 
 const navigator = createStackNavigator( //Shows content at any given time
   {
@@ -11,6 +13,9 @@ const navigator = createStackNavigator( //Shows content at any given time
     Components: ComponentsScreen, //add component screen name
     List: ListScreen,
     Image: ImageScreen,
+    Counter: CounterScreen,
+    Color: ColorScreen,
+
   },
   {
     initialRouteName: "Home",  //change the initial page from expo
